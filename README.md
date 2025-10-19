@@ -1,23 +1,24 @@
-Raptor Technologies - Under Construction
-This is the official website for Raptor Technologies, currently under construction.
+# Raptor Technologies
 
-Current Status
-The site is displaying an under construction page with the following message:
+This is the official website for Raptor Technologies.
 
-"This Site is Under Construction"
-"We're rebuilding Raptor! Please check back later."
-Contact Information
-For inquiries, contact:
+## Files
 
-Phone: (713) 478-5263
-Files
-index.html - Main under construction page
-terms.html - Terms & Conditions
-privacy.html - Privacy Policy
-styles.css - Styling for the site
-scripts.js - JavaScript functionality
-Deployment
+- `index.html` - Main landing page
+- `seo-for-ai.html` - SEO for AI page
+- `terms.html` - Terms & Conditions
+- `privacy.html` - Privacy Policy
+- `_header.html` - Header component
+- `_footer.html` - Footer component
+- `style.css` - Styling for the site
+- `script.js` - Main JavaScript functionality
+- `main.js` - Loads header and footer
+- `seo-chart.js` - JavaScript for the SEO chart
+
+## Deployment
+
 The site is hosted on Hostinger. Updates can be made via FTP, SFTP, or the Hostinger File Manager.
 
-Repository
+## Repository
+
 This repository contains the source files for the Raptor Technologies website.

@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raptor Technologies - Web Development Agency</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="RaptorAI is a top-tier web development agency specializing in custom websites, e-commerce solutions, and AI-driven SEO. Bulletproof your future with us.">
+    <link rel="icon" href="favicon.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RaptorAI",
+      "url": "https://www.raptorai.dev",
+      "logo": "https://www.raptorai.dev/favicon.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-713-478-5263",
+        "contactType": "Customer Service"
+      }
+    }
+    </script>
 </head>
 
 <body class="bg-black text-white antialiased">
@@ -25,7 +40,7 @@
                 </p>
                 <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
                     <a href="#services" class="btn px-8 py-3 rounded-full text-lg">What do we offer?</a>
-                    <a href="#contact" class="btn px-8 py-3 rounded-full text-lg">Lets talk </a>
+                    <a href="#contact" class="btn px-8 py-3 rounded-full text-lg">Let's talk </a>
                 </div>
             </div>
         </section>
@@ -100,14 +115,14 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Project Card 1 -->
             <div class="card p-6 md:p-8 flex flex-col items-center">
-                <div class="h-64 w-full bg-gray-700 rounded-lg mb-4"></div>
+                <div class="h-64 w-full bg-gray-700 rounded-lg mb-4"><img alt="Screenshot of the Project Atlas analytics dashboard" class="h-full w-full object-cover rounded-lg"></div>
                 <h3 class="text-2xl font-bold mb-2">PROJECT ATLAS</h3>
                 <p class="text-gray-300 text-center">A comprehensive analytics dashboard for enterprise clients.</p>
                 <a href="#" class="btn px-6 py-2 rounded-full text-sm mt-4">VIEW PROJECT</a>
             </div>
             <!-- Project Card 2 -->
             <div class="card p-6 md:p-8 flex flex-col items-center">
-                <div class="h-64 w-full bg-gray-700 rounded-lg mb-4"></div>
+                <div class="h-64 w-full bg-gray-700 rounded-lg mb-4"><img alt="A dynamic e-commerce platform with a personalized shopping experience." class="h-full w-full object-cover rounded-lg"></div>
                 <h3 class="text-2xl font-bold mb-2">PROJECT ORION</h3>
                 <p class="text-gray-300 text-center">A dynamic e-commerce platform with a personalized shopping experience.</p>
                 <a href="#" class="btn px-6 py-2 rounded-full text-sm mt-4">VIEW PROJECT</a>
@@ -130,7 +145,7 @@
     <section id="contact" class="container mx-auto py-24 px-4">
         <h2 class="text-3xl md:text-5xl font-bold text-center mb-12 neon-text">GET IN TOUCH</h2>
         <div class="glowing-box p-8 md:p-12">
-            <form class="space-y-6">
+            <form action="https://formspree.io/f/xovkjpjo" method="POST" class="space-y-6">
                 <div>
                     <label for="name" class="block text-lg font-medium mb-2">Name</label>
                     <input type="text" id="name" name="name" class="w-full p-3 rounded-lg bg-gray-800 border-2 border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name">
@@ -144,7 +159,7 @@
                     <textarea id="message" name="message" rows="5" class="w-full p-3 rounded-lg bg-gray-800 border-2 border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about your project..."></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn px-10 py-4 rounded-full text-xl">SEND MESSAGE</button>
+                    <button type="submit" class="btn px-10 py-4 rounded-full text-xl">Let's chat, no strings attached</button>
                 </div>
             </form>
         </div>
@@ -159,7 +174,6 @@
         </svg>
     </div>
 
-    <script src="script.js"></script>
-    <script src="main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
-</html>
