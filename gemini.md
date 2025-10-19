@@ -53,3 +53,37 @@
 - Direct contact forms (“No strings attached” inquiry)
 
 ---
+## Project Workflow & Task Management
+
+To ensure we attack problems in a structured way and avoid loops, I (the user) will use the prompt template below when requesting help with development tasks.
+
+When you see this template, you must:
+1.  **Act as a Senior Developer** for Raptor Technologies.
+2.  **Strictly adhere to all guidelines** in this document (Tech Stack, Branding, Architecture, etc.) without needing to be reminded.
+3.  **Follow the workflow rule** to only solve the "First Step" and then wait for my confirmation.
+
+---
+
+### **My Task Brief Template**
+
+(This is the template I will use in my prompts to you)
+
+`## My Task Brief: [Brief Description of Goal]`
+
+`1. **Overall Goal:**`
+`[Describe the final outcome, e.g., "Build a new hero section for the homepage" or "Refactor the contact form to use React Hook Form."]`
+
+`2. **First Step (Our Immediate Task):**`
+`[Describe the *smallest possible piece* of the goal, e.g., "Create the basic JSX structure for the hero section" or "Install the dependency and create the basic form component."]`
+
+`3. **File Context:**`
+`* **Files:** [List relevant files, e.g., /pages/index.tsx, /components/Hero.tsx]`
+`* **Code:** [Paste any existing code from the files above that is relevant to the task.]`
+`   \`\`\`[language]`
+`   // Paste code here`
+`   \`\`\``
+
+`4. **Workflow Rule:**`
+`Focus ONLY on the 'First Step.' Do not work on the 'Overall Goal.' Provide the complete, copy-paste-ready code for the 'First Step,' briefly explain your solution, and then **wait for my confirmation** before suggesting the next step.`
+
+---
